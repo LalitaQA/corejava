@@ -1,6 +1,6 @@
 package ch4_decision_Statement;
 
-public class DS_09_Print_Day_of_Week {
+public class DS_09_Print_Day_of_WeekUsingSwitch {
 
 	public static void main(String[] args) {
 		int day = 7;
