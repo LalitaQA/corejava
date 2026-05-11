@@ -11,5 +11,8 @@ public class O_07_ObjectForNonStaticMethod {
 		// create an object
 		O_07_ObjectForNonStaticMethod ref = new O_07_ObjectForNonStaticMethod();
 		ref.demo();
+		// create one more object
+		O_07_ObjectForNonStaticMethod ref1 = new O_07_ObjectForNonStaticMethod();
+		ref1.demo();
 	}
 }
