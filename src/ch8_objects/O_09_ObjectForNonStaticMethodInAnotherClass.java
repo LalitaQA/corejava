@@ -1,6 +1,6 @@
 package ch8_objects;
 
-class employee {
+class Employee {
 	// non-static method
 	public void data() {
 		System.out.println("Employee details");
@@ -11,7 +11,8 @@ class employee {
 public class O_09_ObjectForNonStaticMethodInAnotherClass {
 
 	public static void main(String[] args) {
-
+		// create an object
+		Employee ref = new Employee();
+		ref.data();
 	}
-
 }
