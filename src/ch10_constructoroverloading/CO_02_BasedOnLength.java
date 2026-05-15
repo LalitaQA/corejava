@@ -1,19 +1,19 @@
 package ch10_constructoroverloading;
 
-public class CO_01_BasedOnLength {
+public class CO_02_BasedOnLength {
 	// constructor without parameter
-	CO_01_BasedOnLength() {
+	CO_02_BasedOnLength() {
 		System.out.println("No arg constructor");
 	}
 
 	// constructor with parameter
-	CO_01_BasedOnLength(int n) {
+	CO_02_BasedOnLength(int n) {
 		System.out.println("Parameterized constructor");
 		System.out.println("n : " + n);
 	}
 
 	public static void main(String[] args) {
-		new CO_01_BasedOnLength();
-		new CO_01_BasedOnLength(5);
+		new CO_02_BasedOnLength();
+		new CO_02_BasedOnLength(5);
 	}
 }
