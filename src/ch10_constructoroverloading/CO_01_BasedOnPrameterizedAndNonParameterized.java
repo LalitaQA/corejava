@@ -13,7 +13,7 @@ public class CO_01_BasedOnPrameterizedAndNonParameterized {
 	}
 
 	public static void main(String[] args) {
-		new CO_02_BasedOnLength();
-		new CO_02_BasedOnLength(5);
+		new CO_01_BasedOnPrameterizedAndNonParameterized();
+		new CO_01_BasedOnPrameterizedAndNonParameterized(5);
 	}
 }
