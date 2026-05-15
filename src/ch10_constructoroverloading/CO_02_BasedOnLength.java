@@ -1,6 +1,7 @@
 package ch10_constructoroverloading;
 
 public class CO_02_BasedOnLength {
+	//overloading constructor based on length
 	// constructor with 1 parameter
 	CO_02_BasedOnLength(String name) {
 		System.out.println("Name : " + name);

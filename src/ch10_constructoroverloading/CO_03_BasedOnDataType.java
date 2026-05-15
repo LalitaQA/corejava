@@ -1,7 +1,7 @@
 package ch10_constructoroverloading;
 
 public class CO_03_BasedOnDataType {
-
+	//overloading constructor based on datatypes
 	CO_03_BasedOnDataType(String name, long phno) {
 		System.out.println("Name :" + name);
 		System.out.println("Phone :" + phno);

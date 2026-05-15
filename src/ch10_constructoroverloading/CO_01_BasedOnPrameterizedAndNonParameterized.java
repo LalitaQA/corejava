@@ -1,12 +1,13 @@
 package ch10_constructoroverloading;
 
 public class CO_01_BasedOnPrameterizedAndNonParameterized {
-	// constructor without parameter
+	//overloading constructor based on length
+	// constructor without 0 parameter
 	CO_01_BasedOnPrameterizedAndNonParameterized() {
 		System.out.println("No arg constructor");
 	}
 
-	// constructor with parameter
+	// constructor with 1 parameter
 	CO_01_BasedOnPrameterizedAndNonParameterized(int n) {
 		System.out.println("Parameterized constructor");
 		System.out.println("n : " + n);
